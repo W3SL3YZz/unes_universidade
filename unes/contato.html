@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>                     
+<head>
+	<meta charset="utf-8">   										 <!--charset serve para escolher a região de decodificação do HTML-->
+	<meta name="viewport" content="      								
+	widht=device-widht, initial-scale=1">  
+	<title>UNES - Contato</title>                           <!--TITULO DA PÁGINA-->
+</head>
+<body background="imagens/fundo2.png">  								<!--BACKGROUND É O FUNDO, BODY É O CORPO DA PÁGINA-->
+	<table border="0" width="900" align="center">
+		<tr>														<!-- TR É A LINHA E TD É A CEDULA-->
+			<td height="89"><img src="imagens/logo.png"></td>
+			<td align="right">
+				<a href="INDEX.HTML">Home</a> 					                 <!-- href cria um link, é aonde eu quero ir quando clicar-->
+				<a href="quem-somos.html">Quem Somos</a>
+				<a href="contato.html">Contato</a>
+			</td>
+		</tr>
+					
+		<tr>
+			<td colspan="2">
+				<h2>Entre em Contato</h2>  <!-- pesquisar o que é a tag H2-->
+				<p>								<!-- paragrafo-->
+					Lorem ipsum <strong>iaculis</strong> tellus <em>donec</em> ultricies iaculis pretium, luctus viverra integer cubilia praesent blandit id aenean, mauris habitant cursus ac mollis <strong>feugiat</strong>. <!-- strong negrito e em sublinhado-->
+				</p>
+				<hr> <!-- traça uma linha na página-->
+				<form>
+					<strong>Seu e-mail:</strong><br>
+					<input type="text" name="email"><br><br>        <!-- colocar caixa de formulario-->
+					<strong>Assunto:</strong><br>
+					<input type="text" name="assunto"><br><br> 
+					<strong>Sexo:<br></strong>
+					<input type="radio" name="Sexo" value="M"> Masculino <br>
+					<input type="radio" name="Sexo" value="F"> Feminino <br>
+					<input type="radio" name="Sexo" value="I"> Indefinido <br>
+					<strong>Cursos de Interesse:</strong> <br>
+					<input type="checkbox" name="Interesse"> Desenvolvimento de Sistemas<br>
+					<input type="checkbox" name="Interesse"> Edificações<br>
+					<input type="checkbox" name="Interesse"> Enfermagem<br><br>
+					<strong>Qual é a sua cidade:<br></strong>
+					<select name="Cidade">
+						<option value="Praia Grande">Praia Grande</option>
+						<option value="São Vicente">São Vicente</option>
+						<option value="Santos">Santos</option>
+						<option value="Cubatão">Cubatão</option>
+					</select><br><br>
+					<strong>Datas: <br></strong>
+					<input type="date" name="Data1"><br>
+					Data depois de 2000: <br>
+					<input type="date" name="dp2000" min="2000-01-01"><br>
+					Data antes de 1980: <br>
+					<input type="date" name="dp2000" max="1979-12-31"><br><br>
+					Data e Hora: <br>
+					<input type="datetime-local" name="DataHora"><br><br> 
+					<strong>Descrição:</strong><br>
+					<textarea></textarea><br> <!-- faz uma caixa de texto maior-->
+					<input type="submit" value="Enviar"> 								<!-- fez um botão de enviar-->
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">                <!-- se lê = uma celula com 2 colunas alinhada no centro-->
+				<h4>Todos os direitos reservados © </h4>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
